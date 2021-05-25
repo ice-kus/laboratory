@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>laboratoryClass</class>
+ <widget class="QMainWindow" name="laboratoryClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>laboratory</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>721</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="in_laboratory">
+     <widget class="QTextBrowser" name="text_exercise_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>701</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:16pt; font-weight:600;&quot;&gt;Упражнение 2&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;Измерение М&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt; при различных значениях  амплитуды питающего напряжения. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Убедитесь в том, что коэффициент взаимной индукции не зависит от напряжения на генераторе.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Для этого поставьте катушку 1 в среднее положение относительно катушки 2 (z = 50 мм) и установите частоту генератора из середины рабочего диапазона (например, 10 кГц). Измерьте ℰ&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;02&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; при нескольких различных значениях напряжения U4 в цепи катушки 1 в интервале от 0,1 до 5 В.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Рассчитайте M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; по формуле (9). Полученные данные занесите в таблицу &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;(чтобы заполнить данную таблицу, откройте окно с вводом результата)&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/image/t2.jpg&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_handbook">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Справочник</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_input_results">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Открыть ввод результатов</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="text_exercise_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>701</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:16pt; font-weight:600;&quot;&gt;Упражнение 1&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;Измерение коэффициентов взаимной индукции  М&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt; и М&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic; vertical-align:sub;&quot;&gt;12&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt; и исследование их зависимости от взаимного расположения катушек. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Открыть окно с собранной установкой.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Для измерения коэффициента взаимной индукции M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;12&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; установите переключатель Π&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; в положение PQ, а переключатель Π&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; в положение PO. При этом напряжение со звукового генератора подаётся на катушку 1, а ЭДС с кадушки 2 подаётся на вход осциллографа.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Задайте напряжение, подаваемое на катушку 1 U&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; = 2 В. Частоту генератора установите из середины рабочего диапазона. Задвиньте подвижную катушку 1 в крайнее положение (координата z на выдвижной шкале катушки равна нулю). Выдвигая катушку вперёд с шагом 1 см, снимите показания зависимость амплитуды ЭДС взаимной индукции ℰ&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;02&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; в зависимости от координаты катушки z.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Для измерения коэффициента взаимной индукции M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;12&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; установите переключатель Π&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; в положение PO, а переключатель Π&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; в положение PQ.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;5.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Повторите измерения пункта 2 для зависимости ℰ&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;01&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; от z.&lt;/span&gt; &lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;            &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;6.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Рассчитайте по формулам (8), (9) значения M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; и M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;12&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; и занесите полученные данные в таблицу &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;(чтобы заполнить данную таблицу, откройте окно с вводом результата)&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/image/t1.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;7.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Постройте графики зависимости M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; и M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;12&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; как функции координаты z &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;(график будет построен автоматически после заполнения таблицы)&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;. Сравните полученные значения. Убедитесь в справедливости теоремы взаимности.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="text_exercise_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>701</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:16pt; font-weight:600;&quot;&gt;Упражнение 3&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;Измерение М&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt; при различных частотах питающего напряжения.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Определите экспериментально зависимость коэффициента взаимной индукции от частоты генератора.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Поставьте катушку 1 в среднее положение относительно катушки 2 (z = 50 мм).&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Установить напряжение на генераторе 3 В.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Измерьте амплитуду ЭДС взаимной индукции ℰ&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;02&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; при нескольких значениях частоты f звукового генератора в интервале от 5 до 25 кГц.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Рассчитайте M&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; по формуле (9). Полученные данные занесите в таблицу &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;(чтобы заполнить данную таблицу, откройте окно с вводом результата)&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/image/t3.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;5.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Вычислить среднее значение по данным полученной таблицы.&lt;/span&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600;&quot;&gt;6.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;Для одного из полученных значений М&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; рассчитать относительное отклонение по формуле:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/image/f15.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;где М&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; vertical-align:sub;&quot;&gt;21&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; – произвольно выбранное значение из полученной таблицы.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-style:italic;&quot;&gt;Полученные значения пунктов 5-6 также вводятся в отдельном окне для ввода результатов.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>671</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Напишите вывод о проделанной лабораторной работе:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="conclusion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>671</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="finish">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>490</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Завершить работу</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_equipment">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Установка</string>
+      </property>
+     </widget>
+     <zorder>finish</zorder>
+     <zorder>label_2</zorder>
+     <zorder>conclusion</zorder>
+     <zorder>text_exercise_2</zorder>
+     <zorder>text_exercise_3</zorder>
+     <zorder>text_exercise_1</zorder>
+     <zorder>go_handbook</zorder>
+     <zorder>go_input_results</zorder>
+     <zorder>go_equipment</zorder>
+    </widget>
+    <widget class="QWidget" name="in_view_result">
+     <widget class="QTextBrowser" name="text_result">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>681</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_menu_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>502</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Продолжить</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="in_test">
+     <widget class="QTextBrowser" name="text_quest">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>681</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="num_quest">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>30</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Вопрос 1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="answer">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>510</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Продолжить</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="list_ans">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>681</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="test_finish">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>510</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Завершить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="num_quest_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>30</y>
+        <width>481</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Вопрос по технике безопасности</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="answer_tb">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>510</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Продолжить</string>
+      </property>
+     </widget>
+     <zorder>test_finish</zorder>
+     <zorder>text_quest</zorder>
+     <zorder>num_quest</zorder>
+     <zorder>answer</zorder>
+     <zorder>list_ans</zorder>
+     <zorder>num_quest_2</zorder>
+     <zorder>answer_tb</zorder>
+    </widget>
+    <widget class="QWidget" name="in_menu">
+     <widget class="QPushButton" name="go_data_entry">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>380</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Переход
+ к выполнению работы</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>120</y>
+        <width>251</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выберите действие</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="name_lab">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>601</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>              Лабораторная работа 
+&quot;Изучение явление взаимной индукции&quot;</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>721</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_handbook_m">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>200</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Просмотр
+теоретического материала</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_instruction">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>290</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Просмотр инструкции
+по выполнению работы</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="in_data_entry">
+     <widget class="QListWidget" name="list_files">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>421</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>0</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выберите свой файл</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_test">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>500</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Продолжить</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="in_instruction">
+     <widget class="QPushButton" name="go_menu">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>500</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Продолжить</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="text_instruction">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Инструкция по выполнению работы&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1. Повторите правила техники безопасности и теоретический материал, так как перед началом выполнения лабораторных упражнений Вам будет необходимо пройти тестирования. Теоретический материал во время прохождения тестирования недоступен.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2. После того как Вы через главное меню перейдёте к выполнению работы Вам необходимо будет выбрать файл, в названии которого будут Ваши фамилия и имя.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3. Далее необходимо пройти тестирование. Тестирование будет успешно пройдено только тогда, когда&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-дан верный ответ на первый вопрос, который проверяет Ваше знание правил техники безопасности;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-даны верные ответы на три из пяти предложенных теоретических вопросов.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Внимание!&lt;/span&gt; Каждая неудачная попытка прохождения будет отражена на Вашем результате.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;4. После успешного прохождения тестирования, Вы перейдёте к лабораторным упражнениям. Следуйте инструкциям, указанным в тесте упражнений.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;5. Во время выполнения лабораторной работы можете пользоваться теоретическим материалом, который откроется при нажатии на клавишу &amp;quot;Справочник&amp;quot;, и калькулятором, встроенным в Windows.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;6. При открытии окна с лабораторной установкой внимательно изучите инструкцию работы с ней. После чего следуйте указаниям, написанным в лабораторном упражнении для удачного выполнения работы.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>720</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="laboratory.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

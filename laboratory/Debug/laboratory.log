@@ -1,0 +1,27 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: поддержка Windows XP прекращена, ее не будет в последующих выпусках Visual Studio. Дополнительные сведения: https://go.microsoft.com/fwlink/?linkid=2023588.
+  Reading Qt configuration (C:\Qt\Qt5.8.0\5.8\msvc2015\bin\qmake.exe)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: поддержка Windows XP прекращена, ее не будет в последующих выпусках Visual Studio. Дополнительные сведения: https://go.microsoft.com/fwlink/?linkid=2023588.
+  uic equipment.ui
+  uic exercise.ui
+  uic laboratory.ui
+  uic theory.ui
+  rcc images.qrc
+  rcc laboratory.qrc
+  moc laboratory.h
+  moc exercise.h
+   RCC: Warning: No resources in 'C:\Users\╨п\Desktop\╨╜╤Г╨╢╨╜╨╛╨╡\╨║╤Г╤А╤Б╨░╤З╨╕\╨╝╨╛╨┤╨╡╨╗╤М╨║╨░\laboratory\laboratory\laboratory.qrc'.
+  moc equipment.h
+  moc theory.h
+  equipment.cpp
+  exercise.cpp
+  laboratory.cpp
+  main.cpp
+  text_file.cpp
+  theory.cpp
+  qrc_images.cpp
+  qrc_laboratory.cpp
+  moc_laboratory.cpp
+  moc_exercise.cpp
+  moc_equipment.cpp
+  moc_theory.cpp
+  laboratory.vcxproj -> C:\Users\Я\Desktop\нужное\курсачи\моделька\laboratory\Debug\laboratory.exe

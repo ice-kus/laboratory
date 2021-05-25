@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="image">
+    <file>equipment.jpg</file>
+    <file>f15.jpg</file>
+    <file>t3.jpg</file>
+    <file>t2.jpg</file>
+    <file>t1.jpg</file>
+    <file>f12.jpg</file>
+    <file>2.jpg</file>
+    <file>3.jpg</file>
+    <file>4.jpg</file>
+    <file>f14.jpg</file>
+    <file>f11.jpg</file>
+    <file>f13.jpg</file>
+    <file>f9.jpg</file>
+    <file>f8.jpg</file>
+    <file>f10.jpg</file>
+    <file>f7.jpg</file>
+    <file>f5.jpg</file>
+    <file>f6.jpg</file>
+    <file>f4.jpg</file>
+    <file>f3.jpg</file>
+    <file>f2.jpg</file>
+    <file>f1.jpg</file>
+    <file>1.jpg</file>
+    <file>5.jpg</file>
+    <file>6.jpg</file>
+    <file>7.jpg</file>
+  </qresource>
+</RCC>
